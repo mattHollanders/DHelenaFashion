@@ -1,0 +1,11 @@
+.navbar-custom {
+    background-color: #d77c7c; 
+  }
+
+  .navbar-custom .navbar-brand.logo {
+    margin-right: auto; /* Move o logo para o lado esquerdo */
+  }
+  
+  .navbar-custom .navbar-nav {
+    margin-left: auto; /* Move os links para o lado direito */
+  }
