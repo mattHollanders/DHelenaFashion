@@ -31,3 +31,19 @@
     color: white;
   }
   
+/* Inicio do Estilo Ateliê*/
+.indice{
+  text-align: center;
+  font-size: 50px;
+  color:#af6b6a;
+}
+
+.indice:hover{
+  color: #d77c7c;
+}
+
+#atelie .container p{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
