@@ -30,4 +30,23 @@
   .navbar-custom .nav-item.active .nav-link {
     color: white;
   }
-  
+
+.fixed-bottom{
+  text-align: center;
+  background-color: #ffdada;
+}
+
+.fixed-bottom a{
+  color: black;
+  font-size: 10px;
+}
+
+.fixed-bottom .col a{
+  color: black;
+  font-size: larger;
+}
+
+.fixed-bottom .col{
+  margin-bottom: 15px;
+}
+
