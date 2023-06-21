@@ -149,4 +149,8 @@ main{
     display: ruby;
   }
 }
-
+@media (max-width:450px){
+  .navbar-custom .navbar-brand.logo {
+    font-size: 20px;
+  }
+}
