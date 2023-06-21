@@ -1,0 +1,68 @@
+.navbar-brand{
+  display: inline;
+  align-items: center;
+}
+
+.navbar-custom {
+  border-top: 7px solid #af6b6a;
+  display: inline-block;
+  text-align: center;
+}
+
+.botao-navbar-custom {
+  position: fixed;
+  left: 30px;
+  top: 30px;
+}
+
+.navbar-custom .navbar-brand.logo {
+  color: #af6b6a;
+  font-size: 30px;
+}
+
+.navbar-custom .navbar-brand.logo img {
+  border-radius: 10px;
+  margin: 0px 10px 0 10px;
+  width: 80px;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-left: 30px;
+}
+
+.navbar-custom .nav-link {
+  color: #af6b6a;
+  font-size: larger;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #af6b6a;
+}
+
+.navbar-custom .nav-item.active .nav-link {
+  color: #af6b6a;
+}
+
+@media (min-width: 992px) {
+  .navbar-collapse {
+      display: block !important;
+  }
+
+
+  .navbar-custom .nav-item:not(:last-child) {
+      margin-right: 30px;
+  }
+}
+
+@media (max-width:992px){
+
+  .navbar-nav {
+    flex-direction: column;
+    text-align: left;
+}
+}
