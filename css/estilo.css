@@ -108,10 +108,10 @@ main{
 
 .carousel-item img{
   height: 400px;
-  padding: 15px;
+  padding: 0px;
 }
 .carousel {
-  margin-top: 125px; 
+  margin-top: 93px; 
 }
 
 @media (max-width:1050px){
@@ -158,5 +158,13 @@ main{
   }
   .col{
     display: ruby;
+  }
+  .carousel-item img{
+    height: 280px;
+  }
+  .navbar-toggler{
+    width: 40px;
+    height: 40px;
+    padding: 2px;
   }
 }
