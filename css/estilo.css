@@ -1,19 +1,22 @@
 .fixed-bottom{
   text-align: center;
-  background-color: #ffdada;
+  background-color: black;
+  color: white;
 }
 
 .fixed-bottom a{
-  color: black;
   font-size: 10px;
+  color: white;
 }
 
 .fixed-bottom .col a{
-  color: black;
   font-size: larger;
 }
 
 .fixed-bottom .col{
   margin-bottom: 15px;
+}
+.fixed-bottom img{
+
 }
 
