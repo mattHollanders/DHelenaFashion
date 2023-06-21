@@ -153,4 +153,10 @@ main{
   .navbar-custom .navbar-brand.logo {
     font-size: 20px;
   }
+  main{
+    margin-bottom: 0;
+  }
+  .col{
+    display: ruby;
+  }
 }
