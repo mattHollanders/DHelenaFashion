@@ -5,19 +5,21 @@
 
 .navbar-custom {
   border-top: 7px solid #af6b6a;
-  display: inline-block;
+  display: flex;
   text-align: center;
-  background-color: #af6b6a10;
+  background-color: white;
+  justify-content: center;
 }
 
 main{
-  margin-bottom: 20px;
+  margin-bottom: 120px;
 }
 
 .fixed-bottom{
+  height: 120px;
   border-top: 3px solid #af6b6a;
   text-align: center;
-  background-color: #af6b6a10;
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #af6b6a;
@@ -36,13 +38,21 @@ main{
 }
 
 .fixed-bottom .col{
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
+
+.footer-custom h2{
+  margin-bottom: 1px;
+}
+.fixed-bottom p{
+  margin: 0px;
+  font-size: 10px;
+}
+
   .botao-navbar-custom {
-    position: fixed;
     left: 30px;
     top: 30px;
-    background: #af6b6a10;
+    background: white;
   }
   
 .navbar-custom .navbar-brand.logo {
@@ -120,13 +130,23 @@ main{
     text-align: left;
 }
   .fixed-top{
-    position: unset;
     width: 100%;
   }
   .fixed-bottom{
     position: unset;
   }
   .carousel {
-    margin-top: 0px; 
+    margin-top: 90px; 
+  }
+  .navbar-collapse{
+    background: #faf6f6;
+    border: 1.5px solid #af6b6a;
+  }
+  main{
+    margin-bottom: 0;
+  }
+  .col{
+    display: ruby;
   }
 }
+
