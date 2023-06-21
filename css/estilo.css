@@ -13,6 +13,7 @@
   position: fixed;
   left: 30px;
   top: 30px;
+  background: #af6b6a10;
 }
 
 .navbar-custom .navbar-brand.logo {
@@ -59,19 +60,42 @@
   }
 }
 
+
+.carousel-item{
+  border-top: 2px solid #af6b6a;
+  background-color: #af6b6a44;
+  ;
+}
+
+.carousel-item img{
+  height: 400px;
+  padding: 15px;
+}
+.carousel {
+  margin-top: 125px; 
+}
+
+@media (max-width:1050px){
+
+  .carousel {
+    margin-top: 145px; 
+  }
+}
+
+
+
 @media (max-width:992px){
 
   .navbar-nav {
     flex-direction: column;
     text-align: left;
 }
+  .fixed-top{
+    position: unset;
+    width: 100%;
+  }
+  .carousel {
+    margin-top: 0px; 
+  }
 }
 
-.carousel-item{
-  background-color: #ffd1d1;
-}
-
-.carousel-item img{
-  height: 400px;
-  padding: 30px;
-}
