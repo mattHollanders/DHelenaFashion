@@ -9,6 +9,25 @@
   text-align: center;
 }
 
+.fixed-bottom{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.fixed-bottom a{
+  font-size: 10px;
+  color: white;
+}
+
+.fixed-bottom .col a{
+  font-size: larger;
+}
+
+.fixed-bottom .col{
+  margin-bottom: 15px;
+
+
 .botao-navbar-custom {
   position: fixed;
   left: 30px;
