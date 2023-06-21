@@ -123,6 +123,9 @@ main{
     position: unset;
     width: 100%;
   }
+  .fixed-bottom{
+    position: unset;
+  }
   .carousel {
     margin-top: 0px; 
   }
