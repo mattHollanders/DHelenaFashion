@@ -7,17 +7,28 @@
   border-top: 7px solid #af6b6a;
   display: inline-block;
   text-align: center;
+  background-color: #af6b6a10;
+}
+
+main{
+  margin-bottom: 20px;
 }
 
 .fixed-bottom{
+  border-top: 3px solid #af6b6a;
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: #af6b6a10;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #af6b6a;
+
 }
 
 .fixed-bottom a{
   font-size: 10px;
-  color: white;
+  color: #af6b6a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .fixed-bottom .col a{
@@ -26,15 +37,14 @@
 
 .fixed-bottom .col{
   margin-bottom: 15px;
-
-
-.botao-navbar-custom {
-  position: fixed;
-  left: 30px;
-  top: 30px;
-  background: #af6b6a10;
 }
-
+  .botao-navbar-custom {
+    position: fixed;
+    left: 30px;
+    top: 30px;
+    background: #af6b6a10;
+  }
+  
 .navbar-custom .navbar-brand.logo {
   color: #af6b6a;
   font-size: 30px;
@@ -117,4 +127,3 @@
     margin-top: 0px; 
   }
 }
-
