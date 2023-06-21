@@ -66,3 +66,12 @@
     text-align: left;
 }
 }
+
+.carousel-item{
+  background-color: #ffd1d1;
+}
+
+.carousel-item img{
+  height: 400px;
+  padding: 30px;
+}
