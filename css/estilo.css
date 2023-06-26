@@ -103,10 +103,13 @@ main{
 .carousel-item{
   border-top: 2px solid #af6b6a;
   background-color: #af6b6a44;
+  justify-content: center;
   ;
 }
 
 .carousel-item img{
+  margin: 0;
+  width: calc(99.3% / 3);
   height: 400px;
   padding: 0px;
 }
