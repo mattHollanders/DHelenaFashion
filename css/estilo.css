@@ -172,7 +172,7 @@ main{
     padding: 0px 80px 0px 80px;
   }
 }
-@media (max-width:450px){
+@media (max-width:460px){
   .navbar-custom .navbar-brand.logo {
     font-size: 20px;
   }
@@ -193,5 +193,8 @@ main{
   }
   .navbar-custom .nav-item.active .nav-link {
     border-bottom: none;
+  }
+  .row {
+    display: block;
   }
 }
