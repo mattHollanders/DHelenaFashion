@@ -1,6 +1,9 @@
+
 .navbar-brand{
   display: inline;
   align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .navbar-custom {
@@ -62,7 +65,7 @@ main{
 
 .navbar-custom .navbar-brand.logo img {
   border-radius: 10px;
-  margin: 0px 10px 0 10px;
+  margin: 0px;
   width: 80px;
 }
 
